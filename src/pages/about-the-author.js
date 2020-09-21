@@ -22,6 +22,7 @@ const ATA = (props) => {
 
                             <div className="heading-quote">
                                 <h4>
+                                    COULD  IT HAPPEN? I THINK IT COULD
                                 </h4>
 
                                 <span className="ata-span-fx">
@@ -32,14 +33,16 @@ const ATA = (props) => {
 
                         <article className="article-section column" id="author">
                             <p>
-                                Retired Air Force Major J. Randolph Smith served in the military for twenty-four years
-                                as a psychotherapist during the Korean War, the Viet Nam Conflict and during the years of
-                                relative peace in Spain, Turkey, Colorado, Texas and France where he met and married his
-                                wife of fifty-three years. The couple resides in Austin, Texas where their two grown children
-                                also live with their families. Major Smith published Night Train from Manchuria in 2012, a
-                                historical novel based on World War II in the Pacific; he is writing his third novel, a historical
-                                suspense thriller. Jack has just finished his second novel, COUP D'ETAT, a political thriller and is
-                                currently working on his third novel, a historical suspense/thriller.
+                                Major Smith grew up in North Carolina in a small family.
+                                At the age of 10 Diptheria took his brother, 12, his idol and
+                                close companion.  Somehow that loss of protection and support left
+                                him with an awareness that he must now provide his own strength.
+                                That awareness grew and ended with his choosing first a very strong
+                                French bride (leading to a marriage of 60 years) military career,
+                                then education for a helping profession. In a 25-year career he served the
+                                military daily as a psychotherapist devoted to finding strengths in his patients.
+                                After retirement from the US Air Force he has written three books, all three focused
+                                on strengths of individuals.
                             </p>
 
                             <p>
