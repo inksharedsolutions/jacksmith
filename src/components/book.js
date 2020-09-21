@@ -17,7 +17,7 @@ const MidBook = (props) => {
                             </span>
 
                             <h1 className="heading--featured">
-                                <span>Featured</span>
+                                <span>Featured </span>
                                 <span>Book</span>
                             </h1>
 

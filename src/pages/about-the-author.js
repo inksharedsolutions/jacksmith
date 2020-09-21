@@ -22,14 +22,10 @@ const ATA = (props) => {
 
                             <div className="heading-quote">
                                 <h4>
-                                    Dreams have been realized on this day.
-                                    And other dreams may have been fulfilled before this day.
-                                    Other dreams may not have even been born yet. Ther is just one
-                                    thinks to keep in mind: whatever dream you have... keep the faith!
                                 </h4>
 
                                 <span className="ata-span-fx">
-                                    author quote
+
                                 </span>
                             </div>
                         </div>
@@ -49,7 +45,7 @@ const ATA = (props) => {
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author | Writer</span>
-                                    <span className="ata-name">Jack Smith</span>
+                                    <span className="ata-name">J. Randolph Smith</span>
                                 </span>
                             </p>
                         </article>

@@ -1,11 +1,11 @@
 ---
   title: "Privacy Policy"
   date : "5-29-2020"
-  author : "Jack Smith"
+  author : "J. Randolph Smith"
 ---
 
 
-Jack Smith website is committed to safeguarding and preserving the privacy of our visitors.
+J. Randolph Smith website is committed to safeguarding and preserving the privacy of our visitors.
 
 This Policy explains what happens to any personal data that you provide to us, or that we collect from you whilst you visit our site and how we use cookies on this website.
 
@@ -13,7 +13,7 @@ This Policy from time to time so please do review this Policy regularly.
 
 ##Information That We collect
 
-In running and maintaining our website Jack Smith website may collect and process the following data about you:
+In running and maintaining our website J. Randolph Smith website may collect and process the following data about you:
 
 Information about your use of our site including details of your visits such as pages viewed and the resources that you access. Such information includes traffic data, location data and other communication data.
 
@@ -44,7 +44,7 @@ To inform you of any changes to our website, services or goods and products.
 
 If you have previously purchased goods or services from us we may provide to you details of similar goods or services, or other goods and services, that you may be interested in.
 
-We never give your details to third parties to use your data to enable them to provide you with information regarding Jack Smith goods or services.
+We never give your details to third parties to use your data to enable them to provide you with information regarding J. Randolph Smith goods or services.
 
 ##Storing Your Personal Data
 

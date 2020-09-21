@@ -15,19 +15,16 @@ const Author = () => {
                     <div id="author-contents">
                         <span>Author & Writer</span>
                         <h1>
-                            <span>Jack</span>
+                            <span>J. Randolph</span>
                             <span> </span>
                             <span>Smith</span>
                         </h1>
                         <p>
-                            Retired Air Force Major J. Randolph Smith served in the military for twenty-four years
-                            as a psychotherapist during the Korean War, the Viet Nam Conflict and during the years of
-                            relative peace in Spain, Turkey, Colorado, Texas and France where he met and married his
-                            wife of fifty-three years. The couple resides in Austin, Texas where their two grown children
-                            also live with their families. Major Smith published Night Train from Manchuria in 2012, a
-                            historical novel based on World War II in the Pacific; he is writing his third novel, a historical
-                            suspense thriller. Jack has just finished his second novel, COUP D'ETAT, a political thriller and is
-                            currently working on his third novel, a historical suspense/thriller.
+                            Major Smith grew up in North Carolina in a small family.
+                            At the age of 10 Diptheria took his brother, 12, his idol
+                            and close companion. Somehow that loss of protection and
+                            support left him with an awareness that he must now provide
+                            his own strength.
                         </p>
 
                         <div className="button-container">

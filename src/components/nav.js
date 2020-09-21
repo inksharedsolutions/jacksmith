@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 import Logo from '../../static/logo/logo.png'
-
 
 const Nav = (props) => {
 
@@ -16,6 +15,7 @@ const Nav = (props) => {
     ]
 
     let Listed = pages.map((e) => {
+
         var newUrl = ((e).replace(/[ /]/g, "-").trim().toLowerCase());
         let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
 
@@ -37,18 +37,15 @@ const Nav = (props) => {
         <>
             <nav className="navigation">
                 <li>
-                    {/* <Link to="/blog">
-                        Blog
-                    </Link> */}
                     <Link to="/">
                         Home
-                    </Link>
+					</Link>
                 </li>
 
                 <li>
                     <Link to="/about-the-author">
                         Author
-                    </Link>
+					</Link>
                 </li>
 
                 <li>
@@ -60,46 +57,58 @@ const Nav = (props) => {
                 <li>
                     <Link to="/about-the-book">
                         Book
-                    </Link>
+					</Link>
                 </li>
 
                 <li>
                     <Link to="/contact">
                         Contact
-                    </Link>
+					</Link>
                 </li>
+
             </nav>
+
 
             <nav className="burger-nav">
                 <h1>
                     <Link
-                        style={props.pathExt === '/' || props.pathExt === '' ? { color: 'rgb(255, 202,0)' } : { color: '#000' }} to="/"
-                    >
-                        <img src={Logo} className="logo-img" />
-                    </Link>>
+                        style={props.pathExt === '/'
+                            || props.pathExt === '' ? {
+                                color: 'rgb(255, 202, 0)'
+                            } : {
+                                color: '#000'
+                            }}
+                        to="/">
+
+                        <img
+                            className="logo-img"
+                            src={Logo}
+                        />
+                    </Link>
                 </h1>
-
                 <h1></h1>
-
                 <ul
                     className="hamburger-ul"
                     onClick={e => clickEvent(e)}
                     ref={refSpan}>
+
                     <span className="hamburger-span"></span>
-                    <span className="humberger-span"></span>
+                    <span className="hamburger-span"></span>
+
                 </ul>
 
                 <section className={toggled ? 'active-nav' : 'non-active-nav'}>
-                    <span className="hamburger-x-mark"></span>
-                    <span className="hamburger-x-mark"></span>
+
+                    <span className="close-mark" onClick={e => clickEvent(e)}>
+                        <span className="hamburger-x-mark"></span>
+                        <span className="hamburger-x-mark"></span>
+                    </span>
 
                     <ul>
-                        <p className="list-label">
-                            Navigation
-                        </p>
-
+                        <p class="list-label">
+                            Navigations.
+						</p>
                         {Listed}
-
                     </ul>
                 </section>
             </nav>

@@ -21,7 +21,7 @@ const Footer = () => {
                         </h1>
 
                         <p>
-                            Jack Smith loves to hear from readers. You can reach him via email.
+                            J. Randolph Smith loves to hear from readers. You can reach him via email.
                             Feel free to send questions about writing, his works, interviews
                             and other publicity matters.
                         </p>
@@ -42,7 +42,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.stratton-press.com/"
+                                        href="https://twitter.com/strattonpress/"
                                         rel="noreferrer"
                                     >
 
@@ -55,7 +55,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.stratton-press.com/"
+                                        href="https://www.instagram.com/strattonpress/"
                                         rel="noreferrer"
                                     >
 

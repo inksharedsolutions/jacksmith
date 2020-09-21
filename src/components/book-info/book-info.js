@@ -34,13 +34,13 @@ const BookInfo = (props) => {
                         data={{
                             ebook: {
                                 stratton: 'https://www.stratton-press.com/books/coup-detat-seven-days-in-october/',
-                                barnes: 'https://www.barnesandnoble.com/w/coup-detat-j-randolph-smith/1116293484?ean=9781483668147',
+                                barnes: 'https://www.barnesandnoble.com/w/coup-detat-j-randolph-smith/1116293484?ean=9781643456980',
                                 amazon: 'https://www.amazon.com/Coup-DEtat-Seven-Days-October-ebook/dp/B081PDCMZ3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1599786299&sr=8-1',
                             },
                             paperback: {
                                 amazon: 'https://www.amazon.com/Coup-DEtat-Seven-Days-October/dp/1643456830/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1599786299&sr=8-1',
                                 barnes: 'https://www.barnesandnoble.com/w/coup-detat-j-randolph-smith/1116293484?ean=9781643456836',
-                                booksamillion: 'https://www.booksamillion.com/p/Coup-DEtat/J-Randolph-Smith/9781643456980?id=7997864620895',
+                                booksamillion: 'https://www.booksamillion.com/p/Coup-DEtat/J-Randolph-Smith/9781643456836?id=7997864620895',
                             },
                             reviews: {},
                             isNonfront: true,

@@ -1,19 +1,26 @@
 import React from 'react'
-import { Link } from 'gatsby'
+
 
 const Banner = () => {
+
     return (
         <>
             <section className="banner-section">
                 <div className="container-gt">
-                    <div className="one-grid-layout" id="banner-layout-responsive">
-
-                        <div className="right-col banner-img">
+                    <div className="one-grid-columns">
+                        <div className="grid-child-elem">
                             <div className="banner-text">
-                                <span className="first-title">COUP D'ETAT</span>
-                                <h2>
-                                    <span className="second-title">SEVEN DAYS IN OCTOBER</span>
-                                </h2>
+
+                                <h1>
+                                    COUP D'ETAT
+                                </h1>
+
+                                <p className="right-sub-text">
+                                    <span>
+                                        SEVEN DAYS IN OCTOBER
+                                   </span>
+                                </p>
+
                             </div>
                         </div>
                     </div>
