@@ -22,7 +22,7 @@ const ATA = (props) => {
 
                             <div className="heading-quote">
                                 <h4>
-                                    COULD  IT HAPPEN? I THINK IT COULD
+                                    "COULD  IT HAPPEN? I THINK IT COULD"
                                 </h4>
 
                                 <span className="ata-span-fx">

@@ -34,7 +34,7 @@ const BookInfo = (props) => {
                         data={{
                             ebook: {
                                 stratton: 'https://www.stratton-press.com/books/coup-detat-seven-days-in-october/',
-                                barnes: 'https://www.barnesandnoble.com/w/coup-detat-j-randolph-smith/1116293484?ean=9781483668147',
+                                barnes: 'https://www.barnesandnoble.com/w/coup-detat-j-randolph-smith/1116293484?ean=9781643457840',
                                 amazon: 'https://www.amazon.com/Coup-DEtat-Seven-Days-October-ebook/dp/B081PDCMZ3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1599786299&sr=8-1',
                             },
                             paperback: {

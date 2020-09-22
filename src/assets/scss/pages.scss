@@ -9,24 +9,22 @@ $prm-font-size : 12px;
 
 .web-banner {
 
-    background-image: url("../../../static/banner/pexels-photo-4931359.jpeg");
-
-    /* Set a specific height */
-    height: 700px;
-
-    /* Create the parallax scrolling effect */
-    // background-attachment: fixed;
-
+    content: "";
+    background: url("../../../static/banner/pexels-photo-4931359.jpeg") no-repeat;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    top: 0;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    padding-top: 5rem;
 
     span {
         letter-spacing: 0.67em;
         text-transform: uppercase;
         line-height: 2;
-        color: #e8e4e4;
+        color: #ffffff;
     }
 
     h1 {
@@ -69,7 +67,7 @@ $prm-font-size : 12px;
         font-style: italic;
         margin-top: 49px !important;
         font-family: 'Fanwood Text', serif;
-        color: #101010;
+        color: #5f5f5f;
         margin: 0 14%;
     }
 }
@@ -95,10 +93,8 @@ $prm-font-size : 12px;
 
 .article-section {
     p {
-        font-size: 22px;
         line-height: 2.2;
-        // text-align: justify;
-        color: #696969;
+        color: #535353;
         margin-bottom: 2em;
     }
 }
@@ -166,6 +162,7 @@ $prm-font-size : 12px;
     border-radius: 1px !important;
     width: 100% !important;
     max-width: 100%;
+    background: #ffffff;
     // background: rgb(20, 20, 20);
 }
 
@@ -188,7 +185,7 @@ $prm-font-size : 12px;
 .contactMessage {
     font-size: 25px !important;
     margin-bottom: 24px !important;
-    color: #3e3e3e;
+    color: #575757;
 }
 
 .flexMainContainer {
@@ -199,13 +196,14 @@ $prm-font-size : 12px;
     height: 250px;
     border: 1px solid #cecece;
     width: 100%;
-    // background: #181818;
+    background: #ffffff;
+    padding: 1%;
 }
 
 .abtiaryButton {
     padding: 13px 74px;
     border: none;
-    background: #e65650;
+    background: #00a008;
     color: #fff;
     text-transform: uppercase;
     margin-top: 39px;
@@ -265,7 +263,7 @@ $prm-font-size : 12px;
         margin-bottom: 16px;
         font-style: italic;
         font-size: 12px;
-        color: #000 !important;
+        color: #3c3b3b !important;
     }
 
     li {
@@ -276,18 +274,18 @@ $prm-font-size : 12px;
 
     a {
         text-decoration: none;
-        background: #0e1b23;
+        background: #2f3034;
         padding: 4px 15px;
-        color: #fff !important;
+        color: #ffffff !important;
         font-size: 13px;
     }
 
 }
 
 .ata-name {
-    color: #2d2c2c !important;
+    color: #181818 !important;
     font-family: "augusta-free";
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 .disqus-container-bars {
@@ -330,7 +328,7 @@ $prm-font-size : 12px;
             content: '';
             width: 101px;
             height: 2px;
-            background-color: #bc3d2d;
+            background-color: #53bf58;
             display: block;
             margin: 11px 0;
         }
@@ -383,7 +381,7 @@ $prm-font-size : 12px;
         text-align: left;
         font-size: 2rem;
         font-weight: 900;
-        color: #fff;
+        color: #030303 !important;
         line-height: 1;
         text-transform: uppercase;
     }
@@ -442,6 +440,7 @@ $prm-font-size : 12px;
     }
 }
 
+
 .logo-ft {
     a {
         color: #fff !important;
@@ -466,7 +465,7 @@ $prm-font-size : 12px;
 
 
 .sub-heading {
-    color: #F44336;
+    color: #FFC107;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;

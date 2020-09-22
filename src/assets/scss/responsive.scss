@@ -5,6 +5,7 @@
     .flex-container {
         h1 {
             font-size: 27px;
+            padding: 0 8%;
         }
     }
 }
@@ -31,6 +32,23 @@
 
 @media screen and (max-width : 990px) {
 
+    .banner-text {
+        p {
+            text-align: center;
+        }
+    }
+
+    .one-grid-columns {
+        .right-sub-text {
+            text-align: center;
+        }
+    }
+
+    .flex-container {
+        &:before {
+            display: none;
+        }
+    }
 
     body {
         font-size: 14px;
@@ -78,7 +96,7 @@
 
     .hamburger-ul {
         padding: 14px 10px;
-        background: #c57569;
+        background: #ffffff1c;
         border-radius: 50px;
     }
 
@@ -183,7 +201,8 @@
     }
 
     .upper-main {
-        padding: 6% 0;
+
+        padding: 10% 0;
 
         h1 {
             font-size: 2.5em;
@@ -487,7 +506,8 @@
 
     .banner-text {
         h1 {
-            margin: 10% 0;
+            margin: 0;
+            font-size: 19vw;
         }
     }
 }
@@ -546,6 +566,9 @@
         }
     }
 }
+
+
+
 
 /***
   ================
